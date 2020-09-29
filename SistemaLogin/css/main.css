@@ -1,0 +1,110 @@
+.navbar-fixed-top {
+    min-height: 62px;
+}
+.navbar-nav > li > a {
+    border-left: 1px solid #e5e5e5;
+    line-height: 60px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 3px solid #3498db;
+}
+
+
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+        opacity: 70%;
+}
+
+
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 500%;
+	
+	animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+.dropdown-menu {
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #3498db;
+    color: #fff;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #fff;
+}
+footer{background-color: #fff;padding: 3% 1%;}
+.content{min-height: 480px;background-color: #eee;color:#333;margin-top:65px;padding-top:2%;padding-bottom:20px;}
+.well{line-height: .8em;background-color: #fff;font-size:15px;font-style: italic;}
+h1{font-family:Pacifico;}
+.sidebar{min-height: 480px;}
+input{padding:10px;min-width:250px;}
+.has-error{color:#ff0000 !important;}
+.has-success{color:#78b310 !important;}
+.has-error input{border:1px solid red !important;}
+.has-success input{border:1px solid #78b310 !important;}
+.message_success{background-color: #78b310; color:#fff;padding: 5px;}
+.message_error{background-color: #e74c3c; color:#fff;padding: 5px;}
+
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
